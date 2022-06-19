@@ -130,6 +130,8 @@ button {
 }
 
 .nav-contact a {
+  display: flex;
+  align-items: center;
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -980,6 +982,14 @@ button:focus {
 }
 
 .send {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
   display: block;
   margin-top: 30px;
   margin-left: auto;
